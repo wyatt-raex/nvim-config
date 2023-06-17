@@ -272,6 +272,9 @@ vim.o.hlsearch = false
 vim.wo.number = true
 vim.wo.relativenumber = true
 
+-- Set a vertical line to appear at 72 characters
+vim.opt.colorcolumn = "80"
+
 -- Set tabwidth to 2 spaces
 vim.o.tabstop = 2
 vim.o.shiftwidth = 2
